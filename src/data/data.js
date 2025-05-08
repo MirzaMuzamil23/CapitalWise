@@ -1,0 +1,96 @@
+export const watchlist = [
+  {
+    name: "HBL",
+    price: 102.35,
+    percent: "0.45%",
+    isDown: false,
+  },
+  {
+    name: "ENGRO",
+    price: 288.7,
+    percent: "-0.92%",
+    isDown: true,
+  },
+  {
+    name: "LUCK",
+    price: 536.25,
+    percent: "1.24%",
+    isDown: false,
+  },
+  {
+    name: "OGDC",
+    price: 94.15,
+    percent: "-0.34%",
+    isDown: true,
+  },
+  {
+    name: "MCB",
+    price: 155.8,
+    percent: "0.15%",
+    isDown: false,
+  },
+  { name: "HBL", price: 102.35, percent: "0.45%", isDown: false },
+  { name: "ENGRO", price: 288.70, percent: "-0.92%", isDown: true },
+  { name: "LUCK", price: 536.25, percent: "1.24%", isDown: false },
+  { name: "OGDC", price: 94.15, percent: "-0.34%", isDown: true },
+  { name: "MCB", price: 155.80, percent: "0.15%", isDown: false },
+  { name: "UBL", price: 139.20, percent: "0.72%", isDown: false },
+  { name: "FATIMA", price: 41.90, percent: "-1.10%", isDown: true },
+  { name: "PSO", price: 141.50, percent: "1.67%", isDown: false },
+  { name: "PAKRE", price: 19.30, percent: "-0.77%", isDown: true },
+  { name: "TRG", price: 118.90, percent: "2.11%", isDown: false },
+];
+
+export const holdings = [
+  {
+    name: "HBL",
+    qty: 10,
+    avg: 98.5,
+    price: 102.35,
+    net: "+3.91%",
+    day: "+0.45%",
+  },
+  {
+    name: "ENGRO",
+    qty: 5,
+    avg: 300.0,
+    price: 288.7,
+    net: "-3.77%",
+    day: "-0.92%",
+    isLoss: true,
+  },
+  {
+    name: "LUCK",
+    qty: 2,
+    avg: 520.0,
+    price: 536.25,
+    net: "+3.13%",
+    day: "+1.24%",
+  },
+  { name: "HBL", qty: 10, avg: 98.5, price: 102.35, net: "+3.91%", day: "+0.45%" },
+  { name: "ENGRO", qty: 5, avg: 300.0, price: 288.70, net: "-3.77%", day: "-0.92%", isLoss: true },
+  { name: "LUCK", qty: 2, avg: 520.0, price: 536.25, net: "+3.13%", day: "+1.24%" },
+  { name: "OGDC", qty: 6, avg: 90.0, price: 94.15, net: "+4.61%", day: "-0.34%" },
+  { name: "MCB", qty: 8, avg: 150.0, price: 155.80, net: "+3.87%", day: "+0.15%" },
+  { name: "FATIMA", qty: 20, avg: 34.5, price: 36.0, net: "+4.35%", day: "+1.10%" },
+  { name: "SNGP", qty: 15, avg: 36.0, price: 33.5, net: "-6.94%", day: "-1.47%", isLoss: true },
+  { name: "PAKT", qty: 1, avg: 850.0, price: 870.0, net: "+2.35%", day: "+1.10%" },
+
+];
+
+export const positions = [
+  {
+    product: "CNC",
+    name: "OGDC",
+    qty: 4,
+    avg: 96.5,
+    price: 94.15,
+    net: "-2.43%",
+    day: "-0.34%",
+    isLoss: true,
+  },
+  { product: "CNC", name: "OGDC", qty: 4, avg: 96.5, price: 94.15, net: "-2.43%", day: "-0.34%", isLoss: true },
+  { product: "CNC", name: "POL", qty: 2, avg: 418.0, price: 425.5, net: "+1.79%", day: "+0.72%" },
+  { product: "CNC", name: "KEL", qty: 100, avg: 3.25, price: 3.30, net: "+1.54%", day: "+0.30%" },
+  { product: "CNC", name: "PSO", qty: 3, avg: 178.0, price: 181.0, net: "+1.69%", day: "+0.56%" },
+];
