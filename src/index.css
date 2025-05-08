@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.nav-link {
+  margin-left: 40px;
+}
+.navbar-nav {
+  margin-left: 50px;
+}
+
+/* footer */
+
+.footer-font {
+  font-size: 12px;
+}
+.company a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.support a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+.account a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  
+}
+.product-hero h1{
+  font-size: 40px;
+  color: rgb(59, 55, 55);
+}
+.product-hero h6 {
+  font-size: 23px;
+}
+.product-hero p {
+  font-size: 17px;
+  font-weight: 450;
+}
+.product-hero a  {
+  text-decoration: none;
+}
+/* leftsection */
+/* .leftsec-link a {
+  text-decoration: none;
+  
+}
+.learn-more {
+  margin-right: 50px; ;
+} */
+
+/* Support page */
+#supportHero{
+  background-color: rgb(56, 126, 206);
+  color:white;
+}
+#supportHero a{
+
+  color:white;
+}
+
+#supportWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+#supportWrapper a {
+  color: white;
+  font-size: 18px;
+}
+
+#supportHero input {
+ padding: 10px 50px;
+ width: 80%;
+ margin-left: 50px;
+ font-size: 15px;
+ border-radius: 5px;
+ border: none;
+
+}
+
+#supportHero h5 {
+    margin-left: 157px;
+}
+#supportHero input {
+    margin-left: 157px;
+}
+#supportHero h5 {
+    margin-left: 157px;
+}

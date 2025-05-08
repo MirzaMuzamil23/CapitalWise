@@ -1,0 +1,44 @@
+Topic ----ArrayList
+Operation of ArrayList 
+Important point : These all element are the method not the (Property)
+
+ArrayList <Integer> List = new <Integer>();
+-1 : Add Element --> List.add(); 0(1)
+-2 : Get Element --> List.Get(Value_Number); 0(1)
+-3 : Delete ELement --> List.Remove(Value_Remove)-- Its time complexity is Linear
+
+	[1 ,2 , 3 , 4 , 5] 
+
+-4 : Set Element --> List.set(index : 1 , element : 10);
+
+	[1 ,2 , 3 , 4 , 5] (before)
+	[1 ,10 , 3 , 4 , 5] (After) 
+
+-5 : Contains Element --> List.Contains (element : 10); This is check the element of 10 is persent or not 
+
+	[1 ,2 , 3 , 4 , 5] 
+	Flase
+
+-6 : .Size() --> It is use to find the size of the Arraylist
+-7 : Collections.sort(); --> It is help us to sort the value in asending order
+-8 : Collections.reverseOrder(); --> It is used to sort the value in desending order
+
+
+-9 : 		2D ArrayList --> This is the arraylist of arraylist
+	
+syntax : ArrayList<ArrayList<Integer>> MainList = new ArrayList<>();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
